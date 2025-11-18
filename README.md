@@ -10,7 +10,7 @@
 ![image](./2c166c3e-dd0d-45d7-81f4-f7e26e43c074.png)
 
 	使用返回的result中的信息封装请求头X-PAYMENT，再次请求POST /api/rpc/{chain} (chain参数)
-![image](./image.png)
+![image](./a80846f0-6778-4ab9-9088-6fac2e731523.png)
 
 	X-PAYMENT请求头示例：
 	{
