@@ -35,3 +35,6 @@
 	}
 	
 ![image](./f1b4d7cd-b015-4da4-93ac-98ffd7b02ce9.png)
+
+	5）第四步code返回1000，则将result中的值提供给用户(返回信息后续还会有完善)
+![image](./eb934efe-544f-48e0-8221-dc7c258987e6.png)
