@@ -7,4 +7,4 @@
 	{"skuId": skuList中的对应的id ,"chainIndex":"availableChains中对应的chainIndex","coinType":"coins对应的值"}
 	
 	3）如果接口返回状态码为402
-    ![上传图片](https://github.com/user-attachments/assets/db308684-a62a-45bb-8787-5de050f38d74)
+    <img src="https://github.com/user-attachments/assets/db308684-a62a-45bb-8787-5de050f38d74" alt="示例图片" width="300">
