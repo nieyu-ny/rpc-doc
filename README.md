@@ -17,13 +17,9 @@
 	
 	{
     "x402Version": 1, // 固定
-	
     "scheme": "exact", // 传第三步返回的result中的scheme字段值
-	
     "chainIndex": "196", // 传第三步返回的result中的extra中的chainIndex字段值
-	
     "skuId": 1, // 传第三步返回的result中的asset中的skuId字段值
-	
     "coinType": "USDC", // 传第三步返回的result中的asset中的coinType字段值
     "payload": {
         "signature": "0x8e32f69038849ef6e7abfe4bd031b515987df047d49dbfd71a888794d0d9e06903d49fcbaac5a14a17308d6328cb351448631a032a73fa8b03c366f1cfe936831c", // 根据规则生成，可以参考我的调试页面中的生成方式
@@ -37,4 +33,5 @@
         	}
    		}
 	}
+	
 ![image](./f1b4d7cd-b015-4da4-93ac-98ffd7b02ce9.png)
