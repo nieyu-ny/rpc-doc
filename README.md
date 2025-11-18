@@ -1,5 +1,13 @@
 # rpc-doc
-1、连接钱包 -> 选择商品即rpc(分页展示就调/api/rpcPageList，不分页就调/api/rpcList，根据前端页面实际来) -> 选择商品下的sku(skuList中的数据) -> 选择链(availableChains中的数据) -> 选择支付币种(每个链coins的数据);
+接口请求地址：https://dev-hub.nodex.xyz/rpcApi/xxxx
+商品分页接口: https://dev-hub.nodex.xyz/rpcApi/rpcPageList
+商品列表(非分页)接口: https://dev-hub.nodex.xyz/rpcApi/rpcList
+下单(RPC)调用接口：https://dev-hub.nodex.xyz/rpcApi/rpc/{chain}
+
+1、连接钱包 -> 选择商品即rpc(分页展示就调/rpcPageList，不分页就调/rpcList，根据前端页面实际来) -> 选择商品下的sku(skuList中的数据) -> 选择链(availableChains中的数据) -> 选择支付币种(每个链coins的数据);
+
+分页接口文档：http://165.154.2.57:8080/doc.html#/default/rpc%E4%BF%A1%E6%81%AF%E6%9F%A5%E8%AF%A2/rpcPageList
+列表格式接口文档：http://165.154.2.57:8080/doc.html#/default/rpc%E4%BF%A1%E6%81%AF%E6%9F%A5%E8%AF%A2/rpcList
 
 2、上面选择完成后，下单时调用 POST /api/rpc/{chain}接口，传参说明：
 
@@ -14,7 +22,7 @@
 
 	
 ![image](./a80846f0-6778-4ab9-9088-6fac2e731523.png)
-	4）使用返回的result中的信息封装请求头X-PAYMENT，再次请求POST /api/rpc/{chain} (chain参数就是前面选择的商品rpc，第3步402时接口也返回了的，result中的chain字段)
+	4）使用返回的result中的信息封装请求头X-PAYMENT，再次请求POST /rpc/{chain} (chain参数就是前面选择的商品rpc，第3步402时接口也返回了的，result中的chain字段)
 	
 	X-PAYMENT请求头示例：
 	
