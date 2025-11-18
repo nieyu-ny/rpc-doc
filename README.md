@@ -9,3 +9,6 @@
 	3）如果接口返回状态码为402
 ![image](./2c166c3e-dd0d-45d7-81f4-f7e26e43c074.png)
 
+	使用返回的result中的信息封装请求头X-PAYMENT
+![image](./image.png)
+
