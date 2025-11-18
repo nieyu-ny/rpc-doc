@@ -10,6 +10,7 @@
 1、连接钱包 -> 选择商品即rpc(分页展示就调/rpcPageList，不分页就调/rpcList，根据前端页面实际来) -> 选择商品下的sku(skuList中的数据) -> 选择链(availableChains中的数据) -> 选择支付币种(每个链coins的数据);
 
 分页接口文档：http://165.154.2.57:8080/doc.html#/default/rpc%E4%BF%A1%E6%81%AF%E6%9F%A5%E8%AF%A2/rpcPageList
+
 列表格式接口文档：http://165.154.2.57:8080/doc.html#/default/rpc%E4%BF%A1%E6%81%AF%E6%9F%A5%E8%AF%A2/rpcList
 
 2、上面选择完成后，下单时调用 POST /api/rpc/{chain}接口，传参说明：
@@ -17,6 +18,8 @@
 	1）接口路径上的chain参数：步骤1中选择的rpc名称(rpcName字段的值)
 	
 	2）body中json传参：
+	
+	示例：
 	{"skuId": skuList中的对应的id ,"chainIndex":"availableChains中对应的chainIndex","coinType":"coins对应的值"}
 ![image](./6b103b53-0b01-4474-a323-f85919c9babd.png)
 	
