@@ -1,7 +1,10 @@
 # rpc-doc
 接口请求地址：https://dev-hub.nodex.xyz/rpcApi/xxxx
+
 商品分页接口: https://dev-hub.nodex.xyz/rpcApi/rpcPageList
+
 商品列表(非分页)接口: https://dev-hub.nodex.xyz/rpcApi/rpcList
+
 下单(RPC)调用接口：https://dev-hub.nodex.xyz/rpcApi/rpc/{chain}
 
 1、连接钱包 -> 选择商品即rpc(分页展示就调/rpcPageList，不分页就调/rpcList，根据前端页面实际来) -> 选择商品下的sku(skuList中的数据) -> 选择链(availableChains中的数据) -> 选择支付币种(每个链coins的数据);
