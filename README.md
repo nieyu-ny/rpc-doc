@@ -1,4 +1,4 @@
-# rpc-doc
+# rpc-doc（V2025-11-18-01）
 接口请求地址：https://dev-hub.nodex.xyz/rpcApi/xxxx
 
 商品分页接口: https://dev-hub.nodex.xyz/rpcApi/rpcPageList
