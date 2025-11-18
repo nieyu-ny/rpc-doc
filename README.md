@@ -39,7 +39,7 @@
     "skuId": 1, // 传第三步返回的result中的asset中的skuId字段值
     "coinType": "USDC", // 传第三步返回的result中的asset中的coinType字段值
     "payload": {
-        "signature": "0x8e32f69038849ef6e7abfe4bd031b515987df047d49dbfd71a888794d0d9e06903d49fcbaac5a14a17308d6328cb351448631a032a73fa8b03c366f1cfe936831c", // 根据规则生成，可以参考我的调试页面中的生成方式
+        "signature": "0x8e32f69038849ef6e7abfe4bd031b515987df047d49dbfd71a888794d0d9e06903d49fcbaac5a14a17308d6328cb351448631a032a73fa8b03c366f1cfe936831c", // 根据规则生成，根据官方签名生成文件中的来，也参考调试页面中的生成方式
         "authorization": {
             "from": "0x9720db85F374F7432176d3aa7f9Bf05dD225AF6E", // 用户连接钱包地址
             "to": "0xb48CfbbFc03A569bf4119B974FA8bD2c4B9b4752", // 传第三步返回的result中的payTo字段值
