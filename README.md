@@ -7,6 +7,7 @@
 	
 	2）body中json传参：
 	{"skuId": skuList中的对应的id ,"chainIndex":"availableChains中对应的chainIndex","coinType":"coins对应的值"}
+![image](./6b103b53-0b01-4474-a323-f85919c9babd.png)
 	
 	3）如果接口返回状态码为402
 ![image](./2c166c3e-dd0d-45d7-81f4-f7e26e43c074.png)
